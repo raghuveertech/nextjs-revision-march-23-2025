@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Footer = () => {
+const AfterLoginHeader = () => {
   return (
     <div
       style={{
@@ -8,13 +6,13 @@ const Footer = () => {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '10px 20px',
-        backgroundColor: 'beige',
-        borderTop: '1px solid #ccc',
+        backgroundColor: 'skyblue',
+        borderBottom: '1px solid #ccc',
       }}
     >
-      <p>Footer</p>
+      <p>After Login Header</p>
     </div>
   );
 };
 
-export default Footer;
+export default AfterLoginHeader;

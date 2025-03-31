@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Header = () => {
+const CommonFooter = () => {
   return (
     <div
       style={{
@@ -8,13 +6,13 @@ const Header = () => {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '10px 20px',
-        backgroundColor: 'skyblue',
-        borderBottom: '1px solid #ccc',
+        backgroundColor: 'beige',
+        borderTop: '1px solid #ccc',
       }}
     >
-      <p>Header</p>
+      <p>Common Footer</p>
     </div>
   );
 };
 
-export default Header;
+export default CommonFooter;
