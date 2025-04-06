@@ -4,8 +4,8 @@ export const metadata: Metadata = {
   title: 'Profile Page',
 };
 
-const page = () => {
-  return <div>page</div>;
+const Profile = () => {
+  return <div>Profile</div>;
 };
 
-export default page;
+export default Profile;
